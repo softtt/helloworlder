@@ -1,0 +1,20 @@
+{
+    "name": "vsheinin/helloworlder",
+    "description": "test",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.1",
+        "symfony/yaml": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "Vitaliy Sheinin",
+            "email": "vitaliy.sheinin@mail.ru"
+        }
+    ],
+    "autoload": {
+	"psr-4": {
+	    "Helloworlder\\" : "src/Helloworlder"
+	}
+    }
+}
